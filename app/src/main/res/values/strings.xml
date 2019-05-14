@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Car Repo</string>
+
+    <string name="by_signing_up_i_agree_to">By signing up, I agree to</string>
+    <string name="title_activity_home">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Demo</string>
+    <string name="nav_header_subtitle">demo@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="terms_amp_conditions">by accept and conditions</string>
+    <string name="dummy_text">All materials reproduced on this site speak as of the original date of publication or filing. The fact that a document is available on this site does not mean that the information contained in such document has not been modified or superseded by events or by a subsequent document or filing. We have no duty or policy to update any information or statements contained on this site and, therefore, such information or statements should not be relied upon as being current as of the date you access this site.</string>
+
+</resources>

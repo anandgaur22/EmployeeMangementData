@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UpdateDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fiftydp"
+            android:layout_marginEnd="@dimen/thirtydp"
+            android:layout_marginStart="@dimen/thirtydp"
+            android:layout_marginTop="@dimen/tendp"
+            android:background="@drawable/rectangle_shape_grey_bg">
+
+
+            <ImageView
+                android:id="@+id/username_fiil_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/fifteendp"
+                android:layout_marginStart="@dimen/fifteendp"
+                android:src="@drawable/user_icon"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/username_txtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/tendp"
+                android:layout_marginStart="@dimen/tendp"
+                android:layout_toRightOf="@+id/username_fiil_imgView"
+                android:background="@android:color/transparent"
+                android:hint="UserName"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="@dimen/fifteensp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fiftydp"
+            android:layout_marginEnd="@dimen/thirtydp"
+            android:layout_marginStart="@dimen/thirtydp"
+            android:layout_marginTop="@dimen/tweentydp"
+            android:background="@drawable/rectangle_shape_grey_bg">
+
+            <ImageView
+                android:id="@+id/name_blank_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/fifteendp"
+                android:src="@drawable/user_icon"
+                android:visibility="visible"
+                android:layout_marginLeft="@dimen/fifteendp" />
+
+            <ImageView
+                android:id="@+id/name_fiil_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/fifteendp"
+                android:src="@drawable/user_fill_icon"
+                android:visibility="gone"
+                android:layout_marginLeft="@dimen/fifteendp" />
+
+            <EditText
+                android:id="@+id/name_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/tendp"
+                android:layout_marginEnd="@dimen/tendp"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="@dimen/fifteensp"
+                android:layout_toRightOf="@+id/name_blank_imgView"
+                android:background="@android:color/transparent"
+                android:hint="Name" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fiftydp"
+            android:layout_below="@+id/rl1"
+            android:layout_marginEnd="@dimen/thirtydp"
+            android:layout_marginStart="@dimen/thirtydp"
+            android:layout_marginTop="@dimen/fifteendp"
+            android:background="@drawable/rectangle_shape_grey_bg">
+
+            <ImageView
+                android:id="@+id/email_blank_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/fifteendp"
+                android:visibility="visible"
+                android:src="@drawable/email_blank" />
+
+            <ImageView
+                android:id="@+id/email_fiil_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/fifteendp"
+                android:src="@drawable/email_fill"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/email_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/tendp"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textSize="@dimen/fifteensp"
+                android:layout_marginEnd="@dimen/thirtydp"
+                android:layout_toRightOf="@+id/email_blank_imgView"
+                android:background="@android:color/transparent"
+                android:hint="Email" />
+            <ImageView
+                android:id="@+id/validate_email_imgView"
+                android:layout_width="@dimen/fifteendp"
+                android:layout_height="@dimen/fifteendp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/fifteendp"
+                android:visibility="gone"
+                android:src="@drawable/tick" />
+            <ImageView
+                android:id="@+id/wrong_email_imgView"
+                android:layout_width="@dimen/fifteendp"
+                android:layout_height="@dimen/fifteendp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:layout_marginEnd="@dimen/fifteendp"
+                android:src="@drawable/cross_red_icon" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fiftydp"
+            android:layout_marginEnd="@dimen/thirtydp"
+            android:layout_marginStart="@dimen/thirtydp"
+            android:layout_marginTop="@dimen/fifteendp"
+            android:background="@drawable/rectangle_shape_grey_bg">
+
+            <ImageView
+                android:id="@+id/password_blank_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/fifteendp"
+                android:src="@drawable/password_blank" />
+
+            <ImageView
+                android:id="@+id/password_fill_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/fifteendp"
+                android:src="@drawable/password_fill_icon"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/password_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/tendp"
+                android:layout_marginStart="@dimen/tendp"
+                android:layout_toRightOf="@+id/password_blank_imgView"
+                android:background="@android:color/transparent"
+                android:hint="Update new password"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textSize="@dimen/fifteensp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fiftydp"
+            android:layout_marginEnd="@dimen/thirtydp"
+            android:layout_marginStart="@dimen/thirtydp"
+            android:layout_marginTop="@dimen/fifteendp"
+            android:background="@drawable/rectangle_shape_grey_bg">
+
+            <ImageView
+                android:id="@+id/phone_blank_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/fifteendp"
+                android:visibility="visible"
+                android:src="@drawable/ic_phone_blank" />
+
+            <ImageView
+                android:id="@+id/phone_fill_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/fifteendp"
+                android:src="@drawable/ic_phone_android_black_24dp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/phone_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/tendp"
+                android:singleLine="true"
+                android:layout_marginEnd="@dimen/tendp"
+                android:inputType="phone"
+                android:textSize="@dimen/fifteensp"
+                android:layout_toRightOf="@+id/phone_blank_imgView"
+                android:background="@android:color/transparent"
+                android:hint="Phone Number" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fiftydp"
+            android:layout_marginEnd="@dimen/thirtydp"
+            android:layout_marginStart="@dimen/thirtydp"
+            android:layout_marginTop="@dimen/fifteendp"
+            android:background="@drawable/rectangle_shape_grey_bg">
+
+            <ImageView
+                android:id="@+id/whatsapp_blank_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/fifteendp"
+                android:visibility="visible"
+                android:src="@drawable/ic_phone_blank" />
+
+            <ImageView
+                android:id="@+id/whatsapp_fill_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/fifteendp"
+                android:src="@drawable/ic_phone_android_black_24dp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/whatsapp_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/tendp"
+                android:singleLine="true"
+                android:layout_marginEnd="@dimen/tendp"
+                android:inputType="phone"
+                android:textSize="@dimen/fifteensp"
+                android:layout_toRightOf="@+id/whatsapp_blank_imgView"
+                android:background="@android:color/transparent"
+                android:hint="WhatsApp Number" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fiftydp"
+            android:layout_marginEnd="@dimen/thirtydp"
+            android:layout_marginStart="@dimen/thirtydp"
+            android:layout_marginTop="@dimen/fifteendp"
+            android:background="@drawable/rectangle_shape_grey_bg">
+
+            <ImageView
+                android:id="@+id/pan_blank_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/fifteendp"
+                android:visibility="visible"
+                android:src="@drawable/ic_id_card_blank" />
+
+            <ImageView
+                android:id="@+id/pan_fill_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/fifteendp"
+                android:src="@drawable/ic_id_card"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/pan_no_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/tendp"
+                android:singleLine="true"
+                android:layout_marginEnd="@dimen/tendp"
+                android:inputType="text"
+                android:textSize="@dimen/fifteensp"
+                android:layout_toRightOf="@+id/pan_blank_imgView"
+                android:background="@android:color/transparent"
+                android:hint="Pancard Number" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fiftydp"
+            android:layout_marginStart="@dimen/thirtydp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/thirtydp"
+            android:background="@drawable/rectangle_shape_grey_bg">
+
+
+            <Spinner
+                android:id="@+id/prove_type_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/tendp"
+                android:layout_marginEnd="@dimen/thirtyfivedp"
+                android:background="@android:color/transparent"
+                android:gravity="start"
+                android:spinnerMode="dropdown" />
+
+            <ImageView
+                android:id="@+id/drop_down_prove_type_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/fifteendp"
+                android:src="@drawable/dropdown_button" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fiftydp"
+            android:layout_marginEnd="@dimen/thirtydp"
+            android:layout_marginStart="@dimen/thirtydp"
+            android:layout_marginTop="@dimen/fifteendp"
+            android:background="@drawable/rectangle_shape_grey_bg">
+
+            <TextView
+                android:id="@+id/upload_txtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="35dp"
+                android:layout_marginStart="10dp"
+                android:text="Upload selected id proof photo "
+                />
+
+
+            <ImageView
+                android:id="@+id/attache_imgView"
+                android:layout_width="@dimen/tweentydp"
+                android:layout_height="@dimen/tweentydp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/ic_attach_file_black_24dp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/thirtydp"
+            android:layout_marginStart="@dimen/thirtydp"
+            android:layout_marginTop="@dimen/thirtydp"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/update_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fiftydp"
+                android:background="@drawable/btn_background_shape"
+                android:text="Update Details"
+                android:textAllCaps="false"
+                android:layout_marginBottom="@dimen/thirtydp"
+                android:textColor="#FFF"
+                android:textSize="@dimen/tweentytwosp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

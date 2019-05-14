@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ClaimedActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fiftydp"
+            android:layout_marginEnd="@dimen/tweentydp"
+            android:layout_marginStart="@dimen/tweentydp"
+            android:layout_marginTop="@dimen/thirtydp"
+            android:background="@drawable/rectangle_shape_grey_bg">
+
+
+
+            <EditText
+                android:id="@+id/claimed_amt_edtTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/tendp"
+                android:layout_marginStart="@dimen/tendp"
+                android:background="@android:color/transparent"
+                android:hint="Claimed Amount"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="@dimen/fifteensp" />
+
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/tweentydp"
+            android:layout_marginStart="@dimen/tweentydp"
+            android:layout_marginTop="@dimen/thirtydp"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/claimed_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fiftydp"
+                android:background="@drawable/btn_background_shape"
+                android:text="Generate Repo"
+                android:textAllCaps="false"
+                android:layout_marginBottom="@dimen/thirtydp"
+                android:textColor="#FFF"
+                android:textSize="@dimen/tweentytwosp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

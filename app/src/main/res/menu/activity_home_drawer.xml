@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_update_details"
+            android:icon="@drawable/update"
+            android:title="Update Details" />
+
+        <item
+            android:id="@+id/nav_syns_data"
+            android:icon="@drawable/ic_sync_black_24dp"
+            android:title="Sync Data to server" />
+
+        <item
+            android:id="@+id/nav_offline_data"
+            android:icon="@drawable/ic_signal_cellular_off_black_24dp"
+            android:title="Offline Data Show" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>

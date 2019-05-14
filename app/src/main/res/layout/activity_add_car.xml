@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddCarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/thirtydp"
+            android:layout_marginStart="@dimen/thirtydp"
+            android:layout_marginTop="@dimen/tendp"
+            android:text="Select Photo of car :"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/tweentydp"
+            android:layout_marginStart="@dimen/tweentydp"
+            android:layout_marginTop="@dimen/tweentydp"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/images1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_directions_car_black_24dp"
+                />
+
+            <ImageView
+                android:id="@+id/images2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_directions_car_black_24dp"
+                />
+
+            <ImageView
+                android:id="@+id/images3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+
+                android:src="@drawable/ic_directions_car_black_24dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/tweentydp"
+            android:layout_marginStart="@dimen/tweentydp"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Photo of Inventory"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="Photo of Pre Inventory"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="Photo of Post Intimation"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/tweentydp"
+            android:layout_marginStart="@dimen/tweentydp"
+            android:layout_marginTop="@dimen/tweentydp"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/images4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_directions_car_black_24dp"
+                />
+
+            <ImageView
+                android:id="@+id/images5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_directions_car_black_24dp"
+                />
+
+            <ImageView
+                android:id="@+id/images6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_directions_car_black_24dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/tweentydp"
+            android:layout_marginStart="@dimen/tweentydp"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Photo of Vehicle Front"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="Photo of Vehicle Rear"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="Photo Vehicle Right side"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/tweentydp"
+            android:layout_marginStart="@dimen/tweentydp"
+            android:layout_marginTop="@dimen/tweentydp"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/images7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_directions_car_black_24dp"
+                />
+
+            <ImageView
+                android:id="@+id/images8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_directions_car_black_24dp"
+                />
+
+            <ImageView
+                android:id="@+id/images9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_directions_car_black_24dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/tweentydp"
+            android:layout_marginStart="@dimen/tweentydp"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Photo Vehicle Left side"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="Photo of Vehicle Meter"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="Photo Vehicle Documents"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/tweentydp"
+            android:layout_marginStart="@dimen/tweentydp"
+            android:layout_marginTop="@dimen/tweentydp"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/images10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_directions_car_black_24dp"
+                />
+
+            <ImageView
+                android:id="@+id/images11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_directions_car_black_24dp"
+                />
+
+            <ImageView
+                android:id="@+id/images12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+
+                android:src="@drawable/ic_directions_car_black_24dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/tweentydp"
+            android:layout_marginStart="@dimen/tweentydp"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Photo Vehicle Documents"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="Photo Vehicle Documents"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="Photo Vehicle Documents"
+                />
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/tweentydp"
+            android:layout_marginStart="@dimen/tweentydp"
+            android:layout_marginTop="@dimen/thirtydp"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/claimed_amount_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fiftydp"
+                android:background="@drawable/btn_background_shape"
+                android:text="Claimed Amount"
+                android:textAllCaps="false"
+                android:layout_marginBottom="@dimen/thirtydp"
+                android:textColor="#FFF"
+                android:textSize="@dimen/tweentytwosp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
